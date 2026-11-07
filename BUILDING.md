@@ -14,4 +14,3 @@ python3 -m unittest discover -s tests -v
 The native policy test can be run with `cc -std=c11 -I src tests/policy_test.c -o /tmp/goh-policy-test && /tmp/goh-policy-test`. `tests/test_proton.sh` builds a synthetic Windows harness; set `MINGW_SYSROOT`, `PROTON_PATH`, `STEAM_COMPAT_DATA_PATH` to a **disposable** Proton compatdata directory, and `STEAM_COMPAT_CLIENT_INSTALL_PATH` before running it. To run the original-instruction emulation tests, install the Python packages `pefile` and `unicorn`, then run `python3 tests/gate_emulation.py "/path/to/game/binaries/x64/call_to_arms.exe"` and `python3 tests/result_path_emulation.py "/path/to/game/binaries/x64/call_to_arms.exe"`. They read the executable but do not modify it. No game files are included in this release.
 
 These tests do not establish live awards or synchronization.
-
