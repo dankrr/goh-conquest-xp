@@ -8,7 +8,7 @@ A live test with four scene-affecting mods awarded 179 XP through the game's nor
 
 ## Install
 
-1. Download and extract the release ZIP. Close the game and editor.
+1. On GitHub, select **Code → Download ZIP** and extract it. Close the game and editor.
 2. In Steam, right-click the game → **Manage → Browse local files**. Copy the game folder's path.
 3. In a terminal, change to the extracted folder and run:
 
